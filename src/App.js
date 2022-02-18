@@ -1,6 +1,7 @@
 import About from './components/Layout/About';
 import Banner from './components/Layout/Banner';
 import Navbar from './components/Layout/Navbar';
+import Myself from './components/Layout/Myself';
 import Background from './components/UI/Background';
 import { faMobile } from '@fortawesome/free-solid-svg-icons';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
@@ -42,6 +43,7 @@ function App() {
         <Banner/>
       </header>
       <About items={ABOUT_INFO}/>
+      <Myself/>
       <Background/>
     </div>
   );

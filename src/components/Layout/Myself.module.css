@@ -1,0 +1,23 @@
+.myself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.myself p{
+    color: #fff;
+    text-align: center;
+}
+
+.img{
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15%;
+}

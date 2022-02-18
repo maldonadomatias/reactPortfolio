@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Navbar.module.css";
+import cv from '../../assets/cv.pdf'
 import {AiOutlineMenu} from 'react-icons/ai'
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/images/matiasmaldonado-CV.pdf"
+                href={cv}
                 download="matiasmaldonado-cv"
                 id="cv"
               >
