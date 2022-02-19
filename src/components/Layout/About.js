@@ -1,14 +1,12 @@
 import React from "react";
 import AboutCard from "./AboutCard";
 import classes from "./About.module.css";
+import Title from "../UI/Title";
 
 const About = (props) => {
   return (
     <div>
-      <div className={classes.title}>
-        <h2>ABOUT ME</h2>
-        <hr/>
-      </div>
+      <Title>ABOUT ME</Title>
 
       <div className={classes['about--cards']}>
         {props.items.map((inf) => (
