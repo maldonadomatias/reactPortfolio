@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Title from "../UI/Title";
 
 import classes from "./Contact.module.css";
@@ -9,7 +9,7 @@ import Form from "../UI/Form";
 const Contact = () => {
 
   return (
-    <div>
+    <div id="contact">
       <div className={classes["back-to-top"]}>
         <a href="#back-to-top">
           <BsChevronDoubleUp />

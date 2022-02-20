@@ -23,6 +23,7 @@ import challengeImage from "./assets/challenges.png";
 import shoppingImage from "./assets/shopping.png";
 import Skills from "./components/Layout/Skills";
 import Contact from "./components/Layout/Contact";
+import Footer from "./components/Layout/Footer";
 
 const ABOUT_INFO = [
   {
@@ -134,6 +135,7 @@ function App() {
         <Contact />
       </footer>
       <Background />
+      <Footer/>
     </div>
   );
 }

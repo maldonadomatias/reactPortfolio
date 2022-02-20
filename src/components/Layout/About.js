@@ -5,7 +5,7 @@ import Title from "../UI/Title";
 
 const About = (props) => {
   return (
-    <div>
+    <div id="about">
       <Title>ABOUT ME</Title>
 
       <div className={classes['about--cards']}>

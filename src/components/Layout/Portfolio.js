@@ -6,7 +6,7 @@ import classes from "./Portfolio.module.css";
 
 const Portfolio = (props) => {
   return (
-    <div>
+    <div id="portfolio">
       <Title>PORTFOLIO</Title>
 
       <div className={classes.portfolio}>
