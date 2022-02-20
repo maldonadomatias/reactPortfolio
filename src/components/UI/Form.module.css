@@ -8,12 +8,12 @@ form {
 input {
   padding: 10px;
   border-radius: 10px;
-  width: 60%;
+  width: 90%;
   border: none;
 }
 
 textarea {
-  width: 60%;
+  width: 90%;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -24,4 +24,15 @@ textarea {
   text-transform: uppercase;
   font-family: "Poppins";
   font-weight: 900;
+}
+
+@media screen and (min-width: 400px) {
+  input {
+    width: 60%;
+  }
+  
+  textarea {
+    width: 60%;
+
+  }
 }

@@ -18,12 +18,12 @@ const Skills = () => {
       <Title>SKILLS</Title>
       <div className="skills">
         <img alt="skills_js" src={jsLogo}/>
-        <img alt="skills_react" style={{width: '200px'}} src={reactLogo}/>
         <img alt="skills_node" src={nodeLogo}/>
         <img alt="skills_css" src={cssLogo}/>
         <img alt="skills_bootstrap" src={bootstrapLogo}/>
         <img alt="skills_github" src={githubLogo}/>
         <img alt="skills_html" src={htmlLogo}/>
+        <img alt="skills_react" src={reactLogo}/>
       </div>
     </div>
   );
