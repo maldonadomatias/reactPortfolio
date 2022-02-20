@@ -30,7 +30,7 @@ const ABOUT_INFO = [
     id: "1",
     icon: faMobile,
     title: "Responsive",
-    description: "My layouts work on all devices, desktop or mobile.",
+    description: "My layouts work on all devices, desktop and mobile.",
   },
   {
     id: "2",
@@ -48,8 +48,8 @@ const ABOUT_INFO = [
   {
     id: "4",
     icon: faRocket,
-    title: "Dinamic",
-    description: "I like movement in my websites so them aren't so static.",
+    title: "Dynamic",
+    description: "I like movement in my websites so they aren't so static.",
   },
 ];
 

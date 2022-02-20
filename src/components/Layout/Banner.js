@@ -7,7 +7,7 @@ const Banner = () => {
   const [scrollDownMessage, setScrollDownMessage] = useState(false);
   const scrollDown = setTimeout(() => {
     setScrollDownMessage(true);
-  }, 10000);
+  }, 7000);
   return (
     <div className={classes.title} id="back-to-top">
       <div className={classes["title-row"]}>

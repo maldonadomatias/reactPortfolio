@@ -15,7 +15,7 @@ const Card = (props) => {
       </p>
       <hr className={classes.line} />
       <p className={classes.description}>{props.description}</p>
-      <a href="www.">
+      <a href={props.link}>
         <Button>+ MORE INFO</Button>
       </a>
     </div>
