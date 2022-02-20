@@ -7,11 +7,11 @@ const Banner = () => {
   const [scrollDownMessage, setScrollDownMessage] = useState(false);
   const scrollDown = setTimeout(() => {
     setScrollDownMessage(true);
-  }, 5000);
+  }, 10000);
   return (
     <div className={classes.title} id="back-to-top">
       <div className={classes["title-row"]}>
-        <Fade bottom>
+        <Fade clear>
           <h2>
             Hey! I'm <span className={classes.name}> Matías Maldonado</span>
           </h2>
