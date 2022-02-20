@@ -42,3 +42,10 @@
   margin: 0.6rem;
   text-align: center;
 }
+
+.line{
+  height: 1.5px;
+  color: #212A2F;
+  width: 90%;
+  text-align: center;
+}

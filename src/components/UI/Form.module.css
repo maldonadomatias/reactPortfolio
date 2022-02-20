@@ -1,23 +1,27 @@
-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.card{
-    /* border: 1px solid #fff; */
+input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  border: none;
 }
 
-input{
-    padding: 10px;
-    border-radius: 10px;
-    width: 60%;
+textarea {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
 }
 
-textarea{
-    width: 60%;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.formBtn {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 900;
 }
