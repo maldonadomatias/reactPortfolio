@@ -16,7 +16,7 @@ import { faPenFancy } from "@fortawesome/free-solid-svg-icons";
 import newsImage from "./assets/news-report.png";
 import golfImage from "./assets/campo-de-golf.png";
 import gameImage from "./assets/consola-de-juego.png";
-import compassImage from "./assets/brujula.png";
+import menuImage from "./assets/menu.png";
 import diceImage from "./assets/dado.png";
 import portfolioImage from "./assets/professional-portfolio.png";
 import challengeImage from "./assets/challenges.png";
@@ -63,6 +63,14 @@ const PORTFOLIO_PROJECTS = [
     link: "https://newsandroll.herokuapp.com/",
   },
   {
+    id: "2",
+    image: menuImage,
+    title: "Restaurtant Digital Menu",
+    description:
+      "Interactive menu for a restaurant from Argentina. Users can see what's available and order it. It also got a admin side so you can see the orders.",
+    link: "https://github.com/maldonadomatias/los-hornos/",
+  },
+  {
     id: "8",
     image: gameImage,
     title: "Games",
@@ -76,14 +84,6 @@ const PORTFOLIO_PROJECTS = [
     description:
       "Game between two players. The first to reach 100 points wins.",
     link: "https://dado-vuelta.herokuapp.com/",
-  },
-  {
-    id: "2",
-    image: compassImage,
-    title: "Rumbo Sur",
-    description:
-      "Interactive travel guide for Southern Argentina. Users can add destinations and rated them",
-    link: "https://rumbosur.herokuapp.com/",
   },
   {
     id: "3",
@@ -106,7 +106,7 @@ const PORTFOLIO_PROJECTS = [
     title: "Gorrafy",
     description:
       "Integrating project for Digital-House. An e-commerce of hats.",
-    link: "",
+    link: "https://github.com/EmirFederico/grupo_9_GorrasYAccesorios",
   },
   {
     id: "6",
@@ -117,8 +117,6 @@ const PORTFOLIO_PROJECTS = [
     link: "https://github.com/maldonadomatias/krakmiami/",
   },
 ];
-
-console.log("App running");
 
 function App() {
   return (
