@@ -60,7 +60,7 @@ const PORTFOLIO_PROJECTS = [
     title: "News & Roll",
     description:
       "Create an account, write an article, post it, read it! Database included.",
-    link: "https://newsandroll.herokuapp.com/",
+    link: "https://github.com/maldonadomatias/newsandroll",
   },
   {
     id: "2",
